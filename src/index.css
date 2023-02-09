@@ -1,0 +1,64 @@
+.code-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.code-container {
+  flex: 1;
+  margin: 10px;
+}
+
+AceEditor{
+  background-color: red;
+}
+
+h1{
+  color: gray;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bb{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+
+.preview-container {
+  flex: 1;
+  border: 1px solid gray;
+  height: 50%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+#ace-editor{
+   
+}
+
+@media only screen and (max-width: 480px) {
+	.bb { 
+		display: block;
+    margin: 0;
+    margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#ace-editor{ 
+
+  width: 200px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.code-container{ width: 300px; 
+  margin: 0;
+  }
+}
